@@ -7,6 +7,7 @@ const ESLINT_CONFIG = {
 const importEslintConfig = require('tslint-import-eslint-config')
 const tslintConfig = importEslintConfig(ESLINT_CONFIG)
 
+tslintConfig.defaultSeverity = 'error'
 tslintConfig.extends.unshift('tslint:recommended')
 Object.assign(tslintConfig.rules, {
   // fix tslint-import-eslint-config
