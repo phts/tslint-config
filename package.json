@@ -4,7 +4,8 @@
   "description": "My config for TSLint.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint .",
+    "lint": "npm run eslint"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/phts/tslint-config/issues"
   },
-  "homepage": "https://github.com/phts/tslint-config#readme"
+  "homepage": "https://github.com/phts/tslint-config#readme",
+  "dependencies": {
+    "@phts/eslint-config": "^1.2.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-import-eslint-config": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
 }
