@@ -1,0 +1,23 @@
+{
+  "name": "@phts/tslint-config",
+  "version": "0.0.0",
+  "description": "My config for TSLint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phts/tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "tslint-config"
+  ],
+  "author": "Phil Tsaryk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phts/tslint-config/issues"
+  },
+  "homepage": "https://github.com/phts/tslint-config#readme"
+}
