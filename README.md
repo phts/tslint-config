@@ -5,4 +5,20 @@ with additional TypeScript-specific rules.
 
 Import of ESLint config into TSLint is provided by
 [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) and
-[tslint-import-eslint-config](https://github.com/teppeis/tslint-import-eslint-config)
+[tslint-import-eslint-config](https://github.com/teppeis/tslint-import-eslint-config).
+
+## Install
+
+```
+$ npm i -D @phts/eslint-config
+```
+
+## Usage
+
+`tslint.json`:
+
+```json
+{
+  "extends": "@phts/tslint-config"
+}
+```
