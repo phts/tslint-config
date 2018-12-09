@@ -12,7 +12,7 @@ Import of ESLint config into TSLint is provided by
 ## Install
 
 ```
-$ npm i -D @phts/eslint-config @teppeis/tslint-eslint-rules
+$ npm i -D @phts/tslint-config @teppeis/tslint-eslint-rules
 ```
 
 ## Usage
