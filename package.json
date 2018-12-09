@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
-    "lint": "npm run eslint"
+    "lint": "npm run eslint",
+    "pg": "npm run tslint -- ./playground/**/*.ts",
+    "tslint": "./node_modules/.bin/tslint -c ./.tslint.js -p ./tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,8 @@
     "tslint-import-eslint-config": "^1.0.3"
   },
   "devDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.9.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
   }
 }
