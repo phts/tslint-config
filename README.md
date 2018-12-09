@@ -10,15 +10,19 @@ Import of ESLint config into TSLint is provided by
 ## Install
 
 ```
-$ npm i -D @phts/eslint-config
+$ npm i -D @phts/eslint-config @teppeis/tslint-eslint-rules
 ```
 
 ## Usage
 
-`tslint.json`:
+Create file `.tslint.js`:
 
-```json
-{
-  "extends": "@phts/tslint-config"
-}
+```js
+module.exports = require('@phts/tslint-config')
+```
+
+and run `tslint` with specifying tslint config file above:
+
+```
+tslint -c ./.tslint.js
 ```
