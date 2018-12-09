@@ -1,5 +1,7 @@
 # @phts/tslint-config
 
+[![npm](https://img.shields.io/npm/v/@phts/tslint-config.svg)](https://www.npmjs.com/package/@phts/tslint-config)
+
 My config for TSLint. It is based on [my ESLint config](https://github.com/phts/eslint-config)
 with additional TypeScript-specific rules.
 
