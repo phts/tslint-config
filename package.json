@@ -7,7 +7,8 @@
     "eslint": "eslint .",
     "lint": "npm run eslint",
     "pg": "npm run tslint -- ./playground/**/*.ts",
-    "preversion": "npm run lint",
+    "preversion": "npm test",
+    "test": "npm run lint",
     "tslint": "./node_modules/.bin/tslint -c ./.tslint.js -p ./tsconfig.json"
   },
   "repository": {
