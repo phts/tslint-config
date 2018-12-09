@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "@phts/eslint-config": "^1.2.1",
-    "tslint-eslint-rules": "^5.4.0",
     "tslint-import-eslint-config": "^1.0.3"
   },
   "devDependencies": {
