@@ -37,4 +37,7 @@ Object.assign(tslintConfig.rules, {
   'no-inferrable-types': true,
 })
 
+// Disable warning "no-unused-variable is deprecated". Since TypeScript 2.9.
+delete tslintConfig.rules['no-unused-variable']
+
 module.exports = tslintConfig
