@@ -30,7 +30,7 @@
     "tslint": ">= 5"
   },
   "dependencies": {
-    "@phts/eslint-config": "^1.2.1",
+    "@phts/eslint-config": "1.2.1",
     "tslint-import-eslint-config": "^1.0.3"
   },
   "devDependencies": {
