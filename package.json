@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/phts/tslint-config#readme",
   "peerDependencies": {
-    "@teppeis/tslint-eslint-rules": ">= 5",
     "tslint": ">= 5",
     "typescript": ">= 2.9"
   },
