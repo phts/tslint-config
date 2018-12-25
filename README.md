@@ -1,6 +1,8 @@
 # @phts/tslint-config
 
-[![npm](https://img.shields.io/npm/v/@phts/tslint-config.svg)](https://www.npmjs.com/package/@phts/tslint-config) [![Greenkeeper badge](https://badges.greenkeeper.io/phts/tslint-config.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/@phts/tslint-config.svg)](https://www.npmjs.com/package/@phts/tslint-config)
+[![Build Status](https://travis-ci.org/phts/tslint-config.svg?branch=master)](https://travis-ci.org/phts/tslint-config)
+[![Greenkeeper badge](https://badges.greenkeeper.io/phts/tslint-config.svg)](https://greenkeeper.io/)
 
 My config for TSLint. It is based on [my ESLint config](https://github.com/phts/eslint-config)
 with additional TypeScript-specific rules.
