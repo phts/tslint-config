@@ -30,7 +30,7 @@
     "typescript": ">= 2.9"
   },
   "dependencies": {
-    "@phts/eslint-config": "1.2.1",
+    "@phts/eslint-config": "1.2.2",
     "tslint-import-eslint-config": "^1.0.3"
   },
   "devDependencies": {
